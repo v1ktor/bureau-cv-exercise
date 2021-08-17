@@ -1,0 +1,113 @@
+:root {
+    --text-color: hsla(0, 0%, 27%, 1);
+    --text-secondary-color: hsla(0, 0%, 27%, 0.7);
+
+    --link-color: hsla(202, 100%, 38%, 1);
+    --link-underline-color: hsla(202, 100%, 38%, 0.15);
+
+    --link-hover-color: hsla(16, 100%, 35%, 1);
+    --link-hover-underline-color: hsla(16, 100%, 35%, 0.15);
+
+    --link-visited-color: hsla(195, 29%, 56%, 1);
+    --link-visited-underline-color: hsla(195, 29%, 56%, 0.15);
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+.meta-info {
+    color: var(--text-secondary-color);
+}
+
+.cv .no-margin-bottom {
+    margin-bottom: 0;
+}
+
+.cv {
+    margin: 56px auto;
+    max-width: 1000px;
+    font-size: 0.875rem;
+}
+
+.cv a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--link-underline-color);
+    color: var(--link-color);
+}
+
+.cv a:visited {
+    border-bottom: 1px solid var(--link-underline-color);
+    color: var(--link-color);
+}
+
+.cv a:hover {
+    border-bottom: 1px solid var(--link-hover-underline-color);
+    color: var(--link-hover-color);
+}
+
+.cv ul {
+    margin: 0 0 16px 0;
+    padding: 0 0 0 20px;
+}
+
+.cv li {
+    list-style: none;
+}
+
+.cv li:before {
+    content: "-";
+    padding: 0 5px 0 0;
+}
+
+.cv p {
+    margin: 8px 0;
+}
+
+.cv-photo {
+
+}
+
+.cv-photo__photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.cv-contacts {
+    padding-left: 32px;
+}
+
+.cv-photo__name {
+    margin-top: 4px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.cv-experience__entry {
+    margin-top: 32px;
+}
+
+.cv-experience__entry:first-of-type {
+    margin-top: 0;
+}
+
+.cv-experience__title,
+.cv-education__title {
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.cv-experience__header,
+.cv-education__header,
+.cv-hobbies__header {
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+    margin-top: 40px;
+}
