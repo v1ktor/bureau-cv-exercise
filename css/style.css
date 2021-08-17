@@ -56,6 +56,7 @@ body {
 
 .cv li {
     list-style: none;
+    text-indent: -14px;
 }
 
 .cv li:before {
