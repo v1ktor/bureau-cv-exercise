@@ -67,18 +67,10 @@ body {
     margin: 8px 0;
 }
 
-.cv-photo {
-
-}
-
 .cv-photo__photo {
     width: 160px;
     height: 160px;
     border-radius: 50%;
-}
-
-.cv-contacts {
-    padding-left: 32px;
 }
 
 .cv-photo__name {
